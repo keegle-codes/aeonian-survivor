@@ -1,0 +1,134 @@
+name: Aeonian
+version: '1.0-SNAPSHOT'
+main: me.loza.aeonian.Aeonian
+api-version: '1.21'
+authors: [ Keegle/Zakk ]
+description: Aeonian Survivor Codebase.
+commands:
+  warp:
+    description: Warp manager command.
+    permission: surv.warp
+    usage: /<command>
+  tribe:
+    description: Tribe manager command.
+    permission: surv.tribe
+    usage: /<command>
+  echest:
+    description: Ender chest command.
+    usage: /<command>
+    aliases:
+      - enderchest
+  wg:
+    description: World guard logic.
+    permission: surv.wg
+    usage: /<command>
+    aliases:
+      - worldguard
+  timer:
+    description: Timer logic.
+    permission: surv.timer
+    usage: /<command>
+    aliases:
+      - starttimer
+  gmc:
+    description: Gamemode shorten logic.
+    permission: surv.gm
+    usage: /<command>
+  gms:
+    description: Gamemode shorten logic.
+    permission: surv.gm
+    usage: /<command>
+  gmsp:
+    description: Gamemode shorten logic.
+    permission: surv.gm
+    usage: /<command>
+  gma:
+    description: Gamemode shorten logic.
+    permission: surv.gm
+    usage: /<command>
+  fullbright:
+    description: Fullbright logic.
+    usage: /<command>
+    aliases:
+      - fb
+  commandspy:
+    description: Command spy logic.
+    permission: surv.cs
+    usage: /<command>
+    aliases:
+      - cs
+  chat:
+    description: Chat toggle command.
+    permission: surv.chat
+    usage: /<command>
+  helpop:
+    description: Helpop command.
+    usage: /<command>
+    aliases:
+      - ho
+  hr:
+    description: Helpop reply logic.
+    permission: surv.hr
+    usage: /<command>
+    aliases:
+      - helpopr
+      - helpopreply
+  skull:
+    description: Player skull command.
+    permission: surv.skull
+    usage: /<command>
+    aliases:
+      - playerhead
+      - playerskull
+  enchant:
+    description: Custom Enchantment command.
+    permission: surv.enchant
+    usage: /<command>
+  vote:
+    description: Voting logic.
+    usage: /<command>
+  heal:
+    description: Heal players.
+    permission: surv.heal
+    usage: /<command>
+  feed:
+    description: Feed players.
+    permission: surv.feed
+    usage: /<command>
+  ci:
+    description: Clear inventories.
+    permission: surv.ci
+    usage: /<command>
+    aliases:
+      - clearinv
+      - clearinventory
+  invsee:
+    description: Look into inventories.
+    permission: surv.invsee
+    usage: /<command>
+    aliases:
+      - openinv
+      - inventorysee
+  seasons:
+    description: All season information.
+    usage: /<command>
+    aliases:
+      - aeonianseasons
+      - seasoninfo
+  config:
+    description: View the current season config information.
+    usage: /<command>
+    aliases:
+      - survivor
+      - surv
+  sc:
+    description: Spec chat command.
+    usage: /<command>
+    aliases:
+      - specchat
+  ac:
+    description: Admin chat command.
+    permission: surv.ac
+    usage: /<command>
+    aliases:
+      - adminchat
